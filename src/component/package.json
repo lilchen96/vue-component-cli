@@ -1,0 +1,11 @@
+{
+  "name": "vue-round-progress-bar",
+  "version": "1.0.2",
+  "description": "vue-round-progress-bar",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "lilchen96",
+  "license": "ISC"
+}

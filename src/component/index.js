@@ -1,4 +1,4 @@
-import hello from "@/component/hello.vue";
+import hello from "./hello.vue";
 
 const component = {
   install: (Vue) => {

@@ -1,6 +1,6 @@
 import Vue from "vue";
 import App from "./App.vue";
-import component from "@/component";
+// import component from "component";
 
 Vue.use(component);
 
