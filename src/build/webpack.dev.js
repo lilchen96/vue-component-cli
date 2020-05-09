@@ -3,6 +3,7 @@ const merge = require("webpack-merge");
 const common = require("./webpack.common");
 const { VueLoaderPlugin } = require("vue-loader");
 const htmlWebpackPlugin = require("html-webpack-plugin");
+const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 
 module.exports = merge(common, {
   mode: "development",
@@ -15,6 +16,7 @@ module.exports = merge(common, {
   },
   plugins: [
     new VueLoaderPlugin(),
+    new CleanWebpackPlugin(),
     new htmlWebpackPlugin({
       template: path.resolve(__dirname, "../index.html"),
       filename: "index.html",

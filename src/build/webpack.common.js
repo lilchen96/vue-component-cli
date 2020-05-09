@@ -2,8 +2,8 @@ const path = require("path");
 
 module.exports = {
   output: {
-    path: path.resolve(__dirname, "../../dist"), // 打包后的文件存放在dist文件夹
-    filename: "bundle.js", // 打包后输出文件的文件设置为btn.js
+    path: path.resolve(__dirname, "../component"), // 打包后的文件存放到需要上传到NPM的文件夹里
+    filename: "bundle.js",
   },
   module: {
     rules: [
