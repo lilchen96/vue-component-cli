@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "dev": "webpack-dev-server --mode=development --config src/build/webpack.dev.js",
-    "build": "webpack --mode=production --config src/build/webpack.prod.js"
+    "build": "webpack --mode=production --config src/build/webpack.prod.js",
+    "init": "cd src/component && npm init",
+    "login": "cd src/component && npm login",
+    "publish": "cd src/component && npm publish"
   },
   "repository": {
     "type": "git",

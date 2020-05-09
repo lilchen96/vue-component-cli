@@ -10,12 +10,16 @@ vue 单组件脚手架
 
 3.yarn run build 打包
 
+4.yarn run init 初始化包信息
+
+5.yarn run login 登录 npm 账号
+
+6.yarn run publish 将组件发布到 npm
+
 #### 使用说明
 
 1.组件写在 src/component/src/index.vue 中。
 
+2.组件的 name 是注册的名字。
+
 2.打包后的文件（bundle.js）在 src/component/dist 中。
-
-3.在 src/component/package.json 中配置打包信息。
-
-4.在 src/component 下 npm login 和 npm publish。包入口文件 dist/bundle.js，推荐同时暴露组件源代码。
