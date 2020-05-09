@@ -9,5 +9,7 @@ module.exports = merge(common, {
   entry: {
     index: path.resolve(__dirname, "../component/index.js"),
   },
-  plugins: [new VueLoaderPlugin(), new CleanWebpackPlugin()],
+  plugins: [new VueLoaderPlugin(), 
+    // new CleanWebpackPlugin()
+  ],
 });

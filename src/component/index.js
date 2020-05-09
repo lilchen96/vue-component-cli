@@ -1,8 +1,7 @@
-import test from "./test.vue";
+import component from "./test.vue";
 
-const component = {
-  install: (Vue) => {
-    Vue.component(test.name, test);
-  },
+component.install = function(Vue) {
+  Vue.component(component.name, component);
 };
+
 export default component;

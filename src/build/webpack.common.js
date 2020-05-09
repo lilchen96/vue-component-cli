@@ -4,6 +4,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, "../component"), // 打包后的文件存放到需要上传到NPM的文件夹里
     filename: "bundle.js",
+    libraryTarget: "umd",
   },
   module: {
     rules: [
