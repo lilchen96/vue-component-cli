@@ -1,19 +1,11 @@
 {
-  "name": "vue-round-progress-bar",
-  "version": "1.0.3",
+  "name": "npm-package-name",
+  "version": "1.0.0",
   "description": "",
   "main": "bundle.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/lilchen96/vue-circle-progress-bar.git"
-  },
-  "author": "lilchen96",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/lilchen96/vue-circle-progress-bar/issues"
-  },
-  "homepage": "https://github.com/lilchen96/vue-circle-progress-bar#readme"
+  "author": "",
+  "license": "MIT"
 }
