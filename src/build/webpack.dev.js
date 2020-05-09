@@ -16,7 +16,7 @@ module.exports = merge(common, {
   },
   plugins: [
     new VueLoaderPlugin(),
-    // new CleanWebpackPlugin(),
+    new CleanWebpackPlugin(),
     new htmlWebpackPlugin({
       template: path.resolve(__dirname, "../index.html"),
       filename: "index.html",
