@@ -1,9 +1,9 @@
-import hello from "./hello.vue";
+import test from "./test.vue";
 
 const component = {
   // 安装
   install: (Vue) => {
-    Vue.component(hello.name, hello);
+    Vue.component(test.name, test);
   },
 };
 export default component;

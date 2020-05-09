@@ -10,8 +10,9 @@ export default {
 };
 </script>
 
-<style lang="sass" scoped>
-.hello{
-    .div{}
+<style scoped>
+.hello {
+}
+.div {
 }
 </style>
