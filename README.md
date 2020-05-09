@@ -18,4 +18,4 @@ vue 单组件脚手架
 
 3.在 src/component/package.json 中配置打包信息。
 
-4.在 src/component 下 npm login 和 npm publish。包入口文件为 bundle.js，推荐同时暴露组件源代码。
+4.在 src/component 下 npm login 和 npm publish。包入口文件 dist/bundle.js，推荐同时暴露组件源代码。
