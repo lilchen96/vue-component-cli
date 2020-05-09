@@ -1,1 +1,1 @@
-# vue-circle-progress-bar
+# vue-component-cli
